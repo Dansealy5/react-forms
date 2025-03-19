@@ -32,7 +32,7 @@ return (
     <>
     <h2>Sign Up!</h2>
     {error && <p>{error}</p>}
-    {passwordError && <p style={{color: 'red'}}>{passwordError}</p>}
+    {passwordError && <p className="passError">{passwordError}</p>}
 
     <form onSubmit={handleSubmit}>
       <label>
